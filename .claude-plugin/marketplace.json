@@ -1,0 +1,14 @@
+{
+  "name": "cc-plugin",
+  "owner": {
+    "name": "m42cococa"
+  },
+  "plugins": [
+    {
+      "name": "session-util",
+      "source": "./plugins/session-util",
+      "description": "Status line: prompt-cache TTL countdown, cache hit percentage, and context size"
+    }
+  ],
+  "description": "Claude Code plugins by m42cococa"
+}

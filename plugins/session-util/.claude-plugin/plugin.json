@@ -1,0 +1,23 @@
+{
+  "name": "session-util",
+  "version": "0.1.0",
+  "description": "Session utilities for Claude Code. Status line: prompt-cache TTL countdown, cache hit percentage, and context size",
+  "userConfig": {
+    "ttl": {
+      "type": "string",
+      "title": "Prompt cache TTL",
+      "description": "auto: 1h on a Claude subscription, 5m otherwise (upgraded to 1h once a cache hit is seen after 5 minutes)",
+      "options": [
+        "auto",
+        "5m",
+        "1h"
+      ],
+      "default": "auto"
+    }
+  },
+  "author": {
+    "name": "m42cococa"
+  },
+  "license": "MIT",
+  "repository": "https://github.com/m42cococa/cc-plugin"
+}
